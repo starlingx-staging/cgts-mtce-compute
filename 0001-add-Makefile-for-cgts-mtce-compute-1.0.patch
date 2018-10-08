@@ -1,0 +1,21 @@
+From 585f857128e133af17ada1a1989d4523f4fd1325 Mon Sep 17 00:00:00 2001
+From: yhu6 <yong.hu@intel.com>
+Date: Fri, 28 Sep 2018 10:17:22 +0800
+Subject: [PATCH] add Makefile for cgts-mtce-compute-1.0
+
+---
+ mtce-compute/cgts-mtce-compute-1.0/Makefile | 2 +++++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 mtce-compute/cgts-mtce-compute-1.0/Makefile
+
+diff --git a/mtce-compute/cgts-mtce-compute-1.0/Makefile b/mtce-compute/cgts-mtce-compute-1.0/Makefile
+new file mode 100644
+index 0000000..f62798b
+--- /dev/null
++++ b/mtce-compute/cgts-mtce-compute-1.0/Makefile
+@@ -0,0 +1,2 @@
++.PHONY: default
++
+-- 
+2.19.0
+
